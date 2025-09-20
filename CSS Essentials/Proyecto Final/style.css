@@ -1,0 +1,111 @@
+nav li {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+}
+
+main {
+    padding: 20px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+main section {
+    color: #0654b3;
+}
+
+img {
+    height: 100px;
+    width: 170px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+ul li a {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    color: #0654b3;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+tr th {
+    background-color: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.botón {
+    background-color: #0654b3;
+    color: white;
+    animation: boton-efecto 5s ease-in infinite;
+}
+
+@keyframes boton-efecto {
+    0% {
+        background-color: #0654b3;
+    }
+
+    50% {
+        background-color: #333;
+    }
+
+    100% {
+        background-color: #0654b3;
+    }
+}
+
+.botón-suscripción {
+    padding: 10px;
+    background-color: #0654b3;
+    color: white;
+}
+
+.botón-suscripción:hover {
+    background-color: #0654b3;
+    animation: boton-efecto 5s ease-in infinite
+}
+
+footer {
+    padding: 20px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+footer section {
+    color: #0654b3;
+}

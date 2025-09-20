@@ -1,0 +1,68 @@
+header {
+  animation: fadeIn 2s ease-in;
+}
+
+.project-card {
+    background-color: blue;
+    color: white;
+    animation: efecto-botón 4s ease-in-out infinite;
+    margin-left: 90px;
+    margin-right: 65px;
+}
+
+#product-image {
+    height: 100px;
+    width: 150px;
+    margin-left: 150px;
+    animation: rotar 10s ease-in infinite;
+}
+
+nav {
+    animation: left-and-right 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes efecto-botón {
+    0% {
+        background-color: blue;
+        transform: scale(1);
+    }
+
+    50% {
+        background-color: aqua;
+        transform: scale(1.5);
+    }
+
+    100% {
+        background-color: blue;
+        transform: scale(1);
+    }
+}
+
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes left-and-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}

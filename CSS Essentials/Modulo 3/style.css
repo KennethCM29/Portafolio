@@ -1,0 +1,56 @@
+.product {
+    width: 300px;
+    padding: 20px;
+    border: solid #000;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+header {
+    background-image: url("https://via.placeholder.com/800x200");
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: fixed;
+}
+
+footer {
+    margin-bottom: fixed;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 10px;
+    display: flexbox;
+    overflow: hidden;
+}
+
+.product-details {
+    visibility: hidden;
+}
+
+.product-image {
+    position: absolute;
+}
+
+.products-specs:hover {
+    border: 2px;
+    background-color: linear-gradient(white lightgray);
+    color: lightblue;
+}
+
+.contact-form {
+    color: blue;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+}
+
+legend {
+    font-style: italic;
+    border-bottom: 10px;
+}

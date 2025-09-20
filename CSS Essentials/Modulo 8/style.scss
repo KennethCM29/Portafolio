@@ -1,0 +1,46 @@
+$primary-color: #007bff;
+$font-size: 16px;
+
+body {
+  font-size: $font-size;
+  color: $primary-color;
+}
+
+.header, .footer {
+  background-color: lighten($primary-color, 20%);
+  padding: 20px;
+  text-align: center;
+}
+
+@mixin rounded-corners($radius) {
+  border-radius: $radius;
+}
+
+.feature-list li, .example-text {
+  @include rounded-corners(10px);
+  padding: 10px;
+  background-color: lighten($primary-color, 50%);
+}
+
+.header h1 {
+  font-size: 2em;
+}
+
+.about h2 {
+  font-size: 1.5em;
+}
+
+.about p {
+  font-size: $font-size;
+}
+
+.feature-list li {
+  list-style-type: disc;
+  padding-left: 20px;
+  @include rounded-corners(5px);
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: lighten($primary-color, 50%);
+}
+
+/* Se usa "cd "Ubicacioón del css"; sass style.scss style.css" Esto lo que hace es que los estilos del .scss se corran en un .css */ 

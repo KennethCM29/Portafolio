@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.header, .footer {
+  background-color: rgb(102, 175.8, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-list li, .example-text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.header h1 {
+  font-size: 2em;
+}
+
+.about h2 {
+  font-size: 1.5em;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+.feature-list li {
+  list-style-type: disc;
+  padding-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+/* Se usa "cd "Ubicacioón del css"; sass style.scss style.css" Esto lo que hace es que los estilos del .scss se corran en un .css *//*# sourceMappingURL=style.css.map */

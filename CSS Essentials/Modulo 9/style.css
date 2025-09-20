@@ -1,0 +1,43 @@
+.navigation-menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+a::before {
+    color: blueviolet;
+}
+
+a:focus {
+    color: blueviolet;
+}
+
+.sidebar {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 830px;
+    background-color: #f0f0f0;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+body {
+    margin-left: 250px;
+    font-size: 16px;
+    text-decoration-color: #333;
+    background-color: #f4f4f4;
+}
+
+.sidebar.hidden {
+    display: none;
+}
