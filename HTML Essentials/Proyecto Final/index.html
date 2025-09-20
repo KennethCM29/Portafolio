@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/310/310881.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="favicon.jpg" alt="viva">
+    <title>Document</title>
+</head>
+<body>
+<header>
+        <h1>Viajes de Amistad: Explorando el Mundo Juntos</h1>
+        <p>Bienvenidos a nuestro Blog de Aventuras Globales, donde cada callejón, callejón y bulevar esconde una historia por descubrir. Acompáñennos a compartir nuestras 3 ciudades favoritas que nos han robado el corazón y han alimentado nuestras ganas de viajar.</p>
+        <nav>
+            <ul>
+                <li><a href="#Ciudades">Ciudades</a></li>
+                <li><a href="#Galeria">Galería</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Suscripción">Suscripción</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <main>
+        <h1 id="Ciudades">Ciudades</h1> 
+        <h2>
+            <p>Las ciudades son: <strong>Ciudad de Nueva York</strong>, <strong>Ciudad de Kansas</strong>, <strong>Ciudad de Barcelona</strong></p>
+        </h2>
+        <h1 id="Galeria">Galería de imagenes</h1>
+        <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg" alt="Time Square" height="200" width="400" onclick="showAlert(this)">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/_XXwZROjckI" 
+                title="Ciudad de New York" frameborder="0" 
+                allowfullscreen>
+                </iframe>
+                <img src="https://www.visitkc.com/uploads/2019/09/union_station_city_skyline.jpg" alt="Ciudad de Kansas" height="200" width="400" onclick="showAlert(this)">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/R9207Qa1sos" 
+                title="Ciudad de Kansas" frameborder="0" 
+                allowfullscreen>
+                </iframe>
+                <img src="https://www.barcelo.com/guia-turismo/wp-content/uploads/que-visitar-en-barcelona-1.jpg" alt="Ciudad de Barcelona" height="200" width="400" onclick="showAlert(this)">
+                <iframe width="400" height="200" src="https://youtu.be/y3VE4NpefaM?si=Plt7vPugH4_sJAGe" 
+                title="Ciudad de Barcelona" frameborder="0" 
+                allowfullscreen>
+                </iframe>
+        </figure>
+        <h1 id="Contacto">Contacto</h1>
+        <br>
+        <form action="" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="email">Correo Eléctronico:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="text">Asunto:</label>
+            <textarea name="text" rows="1"></textarea>
+            <br>
+            <input type="submit">
+            <br>
+        </form>
+        <br>
+        <h2 id="Suscripción">Suscripción</h2>
+        <form action="" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="email">Correo Eléctronico:</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su dirección de correo electrónico">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <br>
+            <label for="text">Asunto:</label>
+            <textarea name="text" rows="1"></textarea>
+            <br>
+            <input type="submit" name="Unase a nosotros">
+            <br>
+        </form>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Sobre nosotros</a>
+                    <div class="dropdown-content">
+                        <p>Somos un blog dedicado a compartir experiencias de viaje y aventuras alrededor del mundo. Nuestra misión es inspirar a otros a explorar nuevos lugares y crear recuerdos inolvidables.</p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Política de privacidad</a>
+                    <div class="dropdown-content">
+                        <p>Nos comprometemos a proteger tu privacidad. Recopilamos información personal solo para mejorar tu experiencia en nuestro sitio. No compartimos tus datos con terceros sin tu consentimiento. Para más detalles, revisa nuestra política completa.</p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Condiciones de uso</a>
+                    <div class="dropdown-content">
+                        <p>Al usar nuestro sitio, aceptas nuestras condiciones de uso. Nos reservamos el derecho de modificar el contenido en cualquier momento. El uso indebido puede resultar en la suspensión de la cuenta. Para más detalles, revisa nuestras condiciones completas.</p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <em>© 2035 Global Adventures Blog</em>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
