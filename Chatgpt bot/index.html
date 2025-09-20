@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ChatGPT Bot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+    textarea, input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    .response {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      background: #f4f4f4;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h2>Chatbot con OpenAI</h2>
+
+  <label>API Key:</label>
+  <input type="password" id="apiKey" placeholder="Escribe tu API Key aquí">
+
+  <label>Pregunta:</label>
+  <textarea id="question" rows="4" placeholder="Escribe tu pregunta..."></textarea>
+
+  <button id="askBtn">Preguntar</button>
+
+  <div class="response" id="response"></div>
+
+  <script src="bot.js"></script>
+</body>
+</html>
